@@ -1,5 +1,6 @@
 body {
-    background-color: #000;
+    /* background-color: #070707; */
+    background-color: #193D3F;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,6 +9,20 @@ h1 {
     font-size: 500%;
     text-align: center;
     color: #fff;
+}
+
+h2 {
+    background-color: #111;
+    border-radius: 5px;
+    font-size: 200%;
+    text-align: center;
+    color: #fff;
+}
+
+#header {
+    width: 100%;
+    background-color: black;
+    align-self: center;
 }
 
 #mycontainer {
@@ -89,26 +104,18 @@ h1 {
     padding-left: 10px;
 }
 
-/* .grid div:nth-child(even) {
-    background-color: #333;
+/* Instagram */
+
+#instafeed {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
 }
 
-.grid div:nth-child(odd) {
-    background-color: #111;
-} */
+.instaimg img {
+    margin: 2px;
+}
 
-/* Clear floats after the columns */
-/* .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    
-    margin: 0 auto;
-    position: relative;
-} */
-
-/* @media screen and (max-width: 1000px) {
-    .column {
-        width: 100%;
-    }
-} */
+.instaimg img:hover {
+    opacity: 0.8;
+}
