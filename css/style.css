@@ -91,6 +91,17 @@ h2 {
     }
 }
 
+/* Games */
+
+.games {
+    text-align: center;
+    width:100%;
+}
+
+.iframe {
+    width: 200px;
+}
+
 /* Social Media Columns */
 
 .grid {
@@ -114,6 +125,7 @@ h2 {
 
 .instaimg img {
     margin: 2px;
+    border-radius: 5px;
 }
 
 .instaimg img:hover {
