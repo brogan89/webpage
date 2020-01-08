@@ -39,9 +39,6 @@ h2 {
 
 /* iFrame */
 
-html, body {
-	height:100%;
-}
 .wrapper {
 	width:80%;
 	height:100%;
@@ -49,8 +46,6 @@ html, body {
 }
 .h_iframe {
 	position: relative;
-}
-.h_iframe .ratio {
 	display:block;
 	width:100%;
 	height:auto;
