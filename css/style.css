@@ -1,21 +1,25 @@
 body {
-    background-color: #193D3F;
+	background-image: url("/img/Space\ Background\ 4K.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 100%;
+
     margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 	color: #fff;
 }
 
-h2 {
-    background-color: #111;
-    border-radius: 5px;
-    font-size: 30pt;
-    text-align: center;
+.bars {
+	background-color: #2a2a2a
 }
 
 #header {
     width: 100%;
-    background-color: black;
+	background-color: black;
 	align-self: center;
 	padding-top: 100px;
 }
