@@ -50,6 +50,11 @@ body {
 	transform-origin-x: 100%;
 }
 
+.navbar-brand span{
+	text-transform: uppercase;
+	font-size: 1.5em;
+	vertical-align: middle;
+}
 
 
 a {
