@@ -12,19 +12,45 @@ header {
   }
 
 body {
-	background-image: url("../img/space-background.png");
-	background-attachment: fixed;
+	height: 100%;
+    margin: 0;
+	font-family: 'Raleway', sans-serif;;
+	text-align: center;
+	color: #000;
+}
+
+.parallax {
+	perspective: 1px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.parallax__layer {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.parallax__layer--base {
+	transform: translateZ(0);
+}
+.parallax__layer--back {
+	transform: translateZ(-2px) scale(3.1);
+	background: rgba(0, 0, 0, .45) url("/img/space-bg.jpg");
+	background-blend-mode: darken;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
-	height: 100%;
-
-    margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
-	text-align: center;
-	color: #fff;
 }
+.parallax {
+	perspective-origin-x: 100%;
+}
+.parallax__layer {
+	transform-origin-x: 100%;
+}
+
+
 
 a {
 	color: #fff;
@@ -36,7 +62,7 @@ a {
 
 #header {
     width: 100%;
-	background-color: black;
+	background-color: #000;
 	align-self: center;
 	padding-top: 100px;
 }
