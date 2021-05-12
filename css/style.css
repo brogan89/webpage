@@ -27,7 +27,7 @@ body {
 }
 .parallax__layer--back {
 	transform: translateZ(-2px) scale(3.1);
-	background: rgba(0, 0, 0, .45) url("/img/space-bg.jpg");
+	background: rgba(0, 0, 0, .45) url("/img/space-background.png");
 	background-blend-mode: darken;
 	background-position: center;
 	background-repeat: no-repeat;
